@@ -1,0 +1,60 @@
+##  Key Insights
+
+### Insight 1 — Overall Subscription Rate
+
+Only 11.52% of customers subscribed to the term deposit,
+while 88.48% did not subscribe. This indicates that the dataset
+has a strong imbalance between the two subscription outcomes.
+
+### Insight 2 — Call Duration
+
+Customers who subscribed generally had longer call durations
+than customers who did not subscribe. This indicates that longer
+customer interactions were associated with higher subscription
+rates in the dataset.
+
+### Insight 3 — Previous Campaign Outcome
+
+Customers with a successful previous campaign outcome showed
+a substantially higher subscription rate than customers whose
+previous campaign outcome was a failure or another outcome.
+
+### Insight 4 — Job Category
+
+Subscription rates varied across job categories. Retired and
+student customers showed relatively high subscription rates,
+while blue-collar customers showed a lower subscription rate.
+
+### Insight 5 — Contact Month
+
+Subscription rates varied considerably across contact months.
+Some months showed much higher rates than others. However,
+months with very few observations should be interpreted cautiously.
+
+### Insight 6 — Housing Loan
+
+Customers without a housing loan had a higher subscription rate
+than customers with a housing loan in this dataset.
+
+### Insight 7 — Balance Anomalies
+
+The balance variable contains extreme values compared with the
+middle 50% of observations. These potential outliers should be
+investigated rather than automatically removed because they may
+represent genuine customer balances.
+
+
+## Conclusion
+
+The exploratory analysis of the cleaned Bank Marketing dataset
+revealed several important patterns. The overall subscription
+rate was relatively low, with most customers not subscribing.
+Subscription rates varied according to job, contact month,
+previous campaign outcome and loan status. Call duration also
+showed a noticeable difference between customers who subscribed
+and those who did not.
+
+The analysis identified potential outliers in numerical variables
+such as balance, duration, campaign and age. These findings provide
+useful information about customer behaviour and campaign outcomes
+and can be used for further analysis and customer targeting.
